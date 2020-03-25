@@ -1,0 +1,54 @@
+
+.w3-bar-block .w3-bar-item 
+{
+    padding:20px
+}
+
+/* working */
+
+#working {
+  padding: 5px 0;
+  margin-top: 80px;
+}
+#working h1 {
+  text-align: center;
+  color: #000 !important;
+  padding-bottom: 10px;
+}
+#working h1::after {
+  content: "";
+  background: #000;
+  display: block;
+  height: 3px;
+  width: 230px;
+  margin: 20px auto 5px;
+}
+.working-box {
+  margin: 50px 0;
+}
+
+.working-img {
+  position: relative;
+  margin-bottom: 15px;
+}
+.working-img img {
+  width: 100%;
+}
+.btn-buy {
+  width: 150px;
+  padding: 10px 0;
+  outline: none !important;
+  border: 0;
+  border-radius: 2px;
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  bottom: 50%;
+  opacity: 0;
+  transform: translate(-50%, 0);
+}
+.working-img:hover .btn-buy {
+  transform: translate(-50%, 50%);
+  /* bottom: 50%; */
+  opacity: 1;
+}
