@@ -1,2 +1,2 @@
 # uruche6
-Это репозиторий для сайта
+This is repo for site
